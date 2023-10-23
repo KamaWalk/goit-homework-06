@@ -1,1 +1,1 @@
-https://kamawalk.github.io/goit-homework-05/
+https://kamawalk.github.io/goit-homework-06/
