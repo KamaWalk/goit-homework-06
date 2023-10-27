@@ -255,10 +255,15 @@ padding: 8px 24px;
 justify-content: center;
 align-items: center;
 gap: 16px;
+border-radius: 4px;
+border-color: transparent;
+
+text-align: center;
+color: var(--white-background);
 }
 
 .icon-frame-3 {
-  color: var(--white-background);
+ color: var(--white-background);
 }
 
 /* INDEX PAGE */
