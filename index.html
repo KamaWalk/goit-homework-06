@@ -607,11 +607,19 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-form-div">
           <form class="footer-form">
             <div class="footer-email-input">
-              <label for="email-subscribe"> Subscribe </label>
-              <input id="email-subscribe" type="email" name="email" />
+              <label for="email-subscribe" class="email-subscribe-label">
+                Subscribe
+              </label>
+              <input
+                class="email-subscribe-input"
+                id="email-subscribe"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
             </div>
             <button type="submit" class="subscribe-button">
               Subscribe
@@ -621,9 +629,9 @@
                 width="24"
                 height="24"
                 viewBoox="0 0 24 24"
-                fill="#fff"
+                fill="none"
               >
-                <use href="./images/icons.svg#icon-frame-3"></use>
+                <use href="./images/icons.svg#icon-frame"></use>
               </svg>
             </button>
           </form>
@@ -643,6 +651,26 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="modal-icon-container">
+            <label for="username">Name</label>
+            <div>
+              <input type="text" name="username" id="username" />
+              <svg>
+                <use href=""></use>
+              </svg>
+            </div>
+          </div>
+          <label for="user-phone"></label>
+          <input name="user-phone-number" type="text" id="user-phone" />
+          <label for="user-email"
+            ><input name="user-email" type="text" id="user-email"
+          /></label>
+          <label for="comment">
+            <textarea name="comment-area" type="text" id="comment" />
+          </label>
+        </form>
       </div>
     </div>
 
