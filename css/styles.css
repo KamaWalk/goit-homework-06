@@ -237,6 +237,30 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: var(--success);
 }
 
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-email-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-button {
+  background-color: var(--primary-brand);
+  display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.icon-frame-3 {
+  color: var(--white-background);
+}
+
 /* INDEX PAGE */
 /* ___________________________________________pierwszy nagłówek */
 .starting-section {
