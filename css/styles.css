@@ -271,13 +271,17 @@ justify-content: center;
 align-items: center;
 gap: 16px;
 border-radius: 4px;
-border-color: transparent;
+border: none;
 
 text-align: center;
 color: var(--white-background);
 font-weight: 500;
 max-height: 40px;
+min-width: 165px;
 margin: 0 auto;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 .subscribe-button:hover, 
@@ -286,8 +290,9 @@ margin: 0 auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.icon-frame-3 {
+.icon-frame {
   color: var(--white-background);
+  margin-left: 16px;
 }
 
 .email-subscribe-label {
@@ -297,11 +302,25 @@ margin: 0 auto;
 }
 
 .email-subscribe-input {
-  background-color: var(--dark);
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white-background);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-border: 1px solid var(--white-background);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-margin-top: 16px;
+  color: var(--white-background);
+}
+
+.footer-form input[placeholder] {
+  color: var(--white-background);
+}
+
+.footer-form-label {
+
 }
 
 /* INDEX PAGE */
