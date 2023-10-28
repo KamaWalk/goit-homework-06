@@ -251,16 +251,18 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .email-subscribe-input {
   display: flex;
-  flex-direction: column;
-  height: 40px;
+  flex-direction: column;  
   width: 264px;
-  color: var(--white-background);
-  padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  height: 40px;
+  border: 1px solid var(--white-background);
+  background-color: transparent;
   font-size: 12px;
   line-height: 1.5;
-  margin-top: 16px;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white-background);
 }
 
 .subscribe-button {
@@ -301,27 +303,13 @@ cursor: pointer;
   font-weight: 500;
 }
 
-.email-subscribe-input {
-  width: 264px;
-  height: 40px;
-  border: 1px solid var(--white-background);
-  background-color: transparent;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--white-background);
-}
+
 
 .footer-form input[placeholder] {
   color: var(--white-background);
 }
 
-.footer-form-label {
 
-}
 
 /* INDEX PAGE */
 /* ___________________________________________pierwszy nagłówek */
