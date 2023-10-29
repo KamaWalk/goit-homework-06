@@ -271,7 +271,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 8px 24px;
 justify-content: center;
 align-items: center;
-gap: 16px;
 border-radius: 4px;
 border: none;
 
@@ -293,8 +292,8 @@ cursor: pointer;
 }
 
 .icon-frame {
-  color: var(--white-background);
   margin-left: 16px;
+  fill: currentColor;
 }
 
 .email-subscribe-label {
